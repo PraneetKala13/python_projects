@@ -13,7 +13,7 @@ def get_winner(player, computer):
 
 
 def main():
-    choices = {"r": "Rock", "p": "Paper", "s": "Scissors"}
+    choices = {"r": "Rock 🪨", "p": "Paper 📄", "s": "Scissors ✂️"}
 
     while True:
         player = input("Choose Rock (r), Paper (p), or Scissors (s): ").lower()
